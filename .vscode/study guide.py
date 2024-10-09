@@ -7,4 +7,3 @@ if awnser == "los abuelos":
 else
     print(f"INCORRECT")
 
-test
