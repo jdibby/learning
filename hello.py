@@ -17,7 +17,7 @@ if Feeling == "Good":
     why = input(f"So why are you feeling {Feeling} {Name}?")
     time.sleep(5)
     quit
-elif Feeling == "Bad":
+elif Feeling == ("Bad"):
     print(f"sorry to hear that {Name}")
     
     why = input(f"So why are you feeling {Feeling} {Name}?")
