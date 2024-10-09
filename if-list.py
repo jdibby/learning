@@ -10,7 +10,6 @@ for toppings in pizza:
         print("We do NOT have that!")
         break
 """
-
 feelings = ["happy", "sad", "angry", "excited", "anxious", "content", "frustrated", "hopeful", "lonely", "curious", "grateful", "bored", "overwhelmed", "inspired", "confused", "relaxed", "nervous", "joyful", "disappointed", "fearful"]
 
 feeling_answer = input("How are you feeling?  ").lower()
@@ -19,3 +18,4 @@ if feeling_answer in feelings:
     print("I understand that feeling! =)")
 else:
     print("I don't understand that feeling! =(")
+    feelings.append(feeling_answer)
