@@ -10,7 +10,7 @@ for toppings in pizza:
         print("We do NOT have that!")
         break
 """
-feelings = ["happy", "sad", "angry", "excited", "anxious", "content", "frustrated", "hopeful", "lonely", "curious", "grateful", "bored", "overwhelmed", "inspired", "confused", "relaxed", "nervous", "joyful", "disappointed", "fearful"]
+feelings = ["happy", "sad", "angry", "excited", "anxious", "content", "frustrated", "hopeful", "lonely", "curious", "grateful", "bored", "overwhelmed", "inspired", "confused", "relaxed", "nervous", "joyful", "disappointed", "fearful","contento"]
 
 feeling_answer = input("How are you feeling?  ").lower()
 
