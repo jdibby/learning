@@ -1,9 +1,9 @@
 print(">>>>>>>>")
 print("5a quiz")
 print(">>>>>>>>")
-awnser = input("what is grandparents in spanish"    )
-if awnser == "los abuelos":
+anwser = input("what is grandparents in spanish     ")
+if anwser == "los abuelos":
     print(f"CORRECT")
-else
+else:
     print(f"INCORRECT")
 
