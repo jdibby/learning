@@ -4,7 +4,7 @@ import os
 print("Hello world")
 Hi = "Hello world!"
 
-print(Hi)
+print("Hello there")
 
 Name = input("What is your name?   ")
 
