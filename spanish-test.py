@@ -13,7 +13,7 @@ def spanish_test():
             score += 1
             print(score)
         else:
-            print(f"Wrong! The answer is '{spanish_word}'.")
+            print(f"You suck! The answer is '{spanish_word}'.")
             print(score)
 
     print("Your total score:", score)
