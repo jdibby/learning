@@ -1,4 +1,10 @@
-translations = {"hello": "hola", "house": "casa"}
+import random
+
+translations = {
+    "hello": "hola", 
+    "house": "casa",
+    "brother": "el hermano"
+    }
 
 def spanish_test():
     score = 0
