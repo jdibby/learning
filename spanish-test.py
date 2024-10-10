@@ -1,7 +1,4 @@
-questions = {
-    "hello": "hola",
-    "house": "casa"
-}
+questions = {"hello": "hola", "house": "casa"}
 
 def spanish_test():
     score = 0
