@@ -7,12 +7,14 @@ def spanish_test():
     score = 0
 
     for english_word, spanish_word in questions.items():
-        answer = input(f"What is '{english_word}' in Spanish? ").lower()
+        answer = input(f"What is '{english_word}' in Spanish?  ").lower()
         if answer == spanish_word:
-            print("Correct!")
+            print("Woooohoooo!")
             score += 1
+            print(score)
         else:
             print(f"Wrong! The answer is '{spanish_word}'.")
+            print(score)
 
     print("Your total score:", score)
 
