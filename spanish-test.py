@@ -1,10 +1,14 @@
 import random
 
 translations = {
-    "hello": "hola", 
-    "house": "casa",
-    "brother": "el hermano"
-    }
+    "grandparents": "los abuelos"
+    "grandfather": "el abuelo"
+    "grandmother": "la abuela"
+    "grandparents": "los abuelos"
+    "grandparents": "los abuelos"
+    "grandparents": "los abuelos"
+    "grandparents": "los abuelos"
+    }.lower()
 
 def spanish_test():
     right = 0
