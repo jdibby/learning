@@ -1,9 +1,9 @@
-questions = {"hello": "hola", "house": "casa"}
+translations = {"hello": "hola", "house": "casa"}
 
 def spanish_test():
     score = 0
 
-    for english_word, spanish_word in questions.items():
+    for english_word, spanish_word in translations.items():
         answer = input(f"What is '{english_word}' in Spanish?  ").lower()
         if answer == spanish_word:
             print("Woooohoooo!")
