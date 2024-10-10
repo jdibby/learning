@@ -19,7 +19,7 @@ def spanish_test():
             print(f"You suck! The answer is '{spanish_word}'.")
             wrong += 1
 
-    print("Your total score:", score)
+    print("Your total score:", right)
 
 if __name__ == "__main__":
     spanish_test()
