@@ -3,7 +3,7 @@ questions = {
     "house": "casa"
 }
 
-def english_to_spanish_test():
+def spanish_test():
     score = 0
 
     for english_word, spanish_word in questions.items():
@@ -12,9 +12,9 @@ def english_to_spanish_test():
             print("Correct!")
             score += 1
         else:
-            print(f"Wrong! The answer is '{spanish_translation}'.")
+            print(f"Wrong! The answer is '{spanish_word}'.")
 
     print("Your total score:", score)
 
 if __name__ == "__main__":
-    english_to_spanish_test()
+    spanish_test()
