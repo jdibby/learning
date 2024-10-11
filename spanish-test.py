@@ -1,28 +1,40 @@
 import random
 
-translations = { 
+print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+print("5A CAPUTILO WEEK ONE SPANISH QUIZ ")
+print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+
+translations = {
     "grandparents": "los abuelos",
     "grandfather": "el abuelo",
-    "grandmother": "la abuela"
-    "grandparents": "los abuelos"
-    "grandparents": "los abuelos"
-    "grandparents": "los abuelos"
-    "grandparents": "los abuelos"
-    }.lower()
+    "grandmother": "la abuela",
+    "brothers": "los hermanos", 
+    "sisters": "las hermanas",   
+    "brother": "el hermano",
+    "sister": "la hermana",
+    "stepbrother": "el hermanastro",
+    "stepsister": "la hermanastra",
+    "sons": "los hijos",          
+    "daughters": "las hijas",    
+    "parents": "los padres",
+    "father": "el padre"          
+}
 
 def spanish_test():
     right = 0
     wrong = 0
 
-    for english_word, spanish_word in translations.items():
+    # Shuffle questions for randomness
+    items = list(translations.items())
+    random.shuffle(items)
+
+    for english_word, spanish_word in items:
         answer = input(f"What is '{english_word}' in Spanish?  ").lower()
         if answer == spanish_word:
-            print("Woooohoooo!")
-            print("")
+            print("CORRECT")
             right += 1
         else:
-            print(f"You suck! The answer is '{spanish_word}'.")
-            print("")
+            print(f"INCORRECT '{spanish_word}'.")
             wrong += 1
 
     total_questions = right + wrong
@@ -31,8 +43,9 @@ def spanish_test():
     else:
         score_percentage = 0
 
-    print(f"Your total score: {right} correct, {wrong} incorrect.")
+    print(f"\nYour total score: {right} correct, {wrong} incorrect.")
     print(f"Your percentage score: {score_percentage:.2f}%")
     print("")
+
 if __name__ == "__main__":
     spanish_test()
