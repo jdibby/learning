@@ -1,8 +1,8 @@
 import random
 
-translations = {
-    "grandparents": "los abuelos"
-    "grandfather": "el abuelo"
+translations = { 
+    "grandparents": "los abuelos",
+    "grandfather": "el abuelo",
     "grandmother": "la abuela"
     "grandparents": "los abuelos"
     "grandparents": "los abuelos"
