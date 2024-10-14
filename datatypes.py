@@ -24,5 +24,9 @@ days=("Sunday","Monday","Tuesday")
 print(days)
 
 ### Dictionary is a key that has variables tied to values
-person = {"name": "Carter", "age": 11, "country": "USA"}
+person = {
+    "name": "Carter", 
+    "age": 11, 
+    "country": "USA"
+    }
 print(person) 
