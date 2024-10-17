@@ -8,10 +8,10 @@ init(autoreset=True)
 
 def print_dice_faces(dice):
     colors = [Fore.RED, Fore.GREEN, Fore.YELLOW, Fore.BLUE, Fore.MAGENTA, Fore.CYAN]
-    
+
     # Prepare lines for both dice
     lines = [[] for _ in range(5)]
-    
+
     for number in dice:
         color = random.choice(colors)
         dice_faces = {
@@ -58,7 +58,7 @@ def print_dice_faces(dice):
                 " +-------+ "
             ],
         }
-        
+
         for i, line in enumerate(dice_faces[number]):
             lines[i].append(color + line)
 
@@ -102,4 +102,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
