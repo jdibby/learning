@@ -4,9 +4,11 @@ start_playing = input("Do you want to play a dice game? (y/n").lower()
 
 count = 0
 
-if start_playing == "y" and count < 10000:
-    number = random.randint(1,6)
-    print("test")
+if start_playing == "y":
+    count = 0
+    while count < 100000
+        number = random.randint(1,6)
+        print("test")
 
 keep_playing = "y"
 
