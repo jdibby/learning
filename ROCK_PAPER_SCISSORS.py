@@ -23,6 +23,8 @@ def play_the_game_1player():
         print("You blew up the AI, you win")
     elif (computer_choice == "bomb"):
         print("AI blew itself up, you win")
+    elif (user_choice == "bomb" and computer_choice == "bomb")
+        print("you and the AI blew eachother up")
     else:
         print("incorrect response")
 
