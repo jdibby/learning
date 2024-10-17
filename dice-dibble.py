@@ -1,6 +1,6 @@
 import random
 
-start_playing = input("Do you want to play a dice game? (y/n").lower()
+start_playing = input("Do you want to play a dice game? (y/n)".lower()
 
 count = 0
 
@@ -9,6 +9,7 @@ if start_playing == "y":
     while count < 100000:
         number = random.randint(1,6)
         count += 1
+        roll_dice()
 
 def roll_dice():
     keep_playing = "y"
