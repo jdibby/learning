@@ -6,9 +6,9 @@ count = 0
 
 if start_playing == "y":
     count = 0
-    while count < 100000
+    while count < 100000:
         number = random.randint(1,6)
-        print("test")
+        count += 1
 
 keep_playing = "y"
 
