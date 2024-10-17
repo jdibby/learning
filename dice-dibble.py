@@ -1,6 +1,6 @@
 import random
 
-start_playing = input("Do you want to play a dice game? (y/n)".lower()
+start_playing = input("Do you want to play a dice game? (y/n)").lower()
 
 count = 0
 
