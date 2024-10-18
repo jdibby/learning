@@ -10,7 +10,7 @@ if start_playing == "y":
         number = random.randint(1,6)
         count += 1
         roll_dice()
-s
+
 def roll_dice():
     keep_playing = "y"
     while keep_playing == "y":
