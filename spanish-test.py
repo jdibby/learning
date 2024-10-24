@@ -33,7 +33,7 @@ def carter_spanish_test():
     random.shuffle(items)
 
     for english_word, spanish_word in items:
-        answer = input(f"What is '{english_word}' in Spanish?  ").lower()
+        answer = input(f"What is '{english_word}' in Spanish?  ")
         if answer == spanish_word:
             print("CORRECT")
             right += 1
@@ -58,7 +58,7 @@ def mason_spanish_test():
         "to take lessons": "tomar lecciones",
         "to return": "volver",
         "to create a webpage": "crear una pagina Web", 
-        "to be online": "estar en linea",   
+        "to be online": "estar en linea",
         "to do a search": "hacer una busqueda",
         "to surf the web": "navegar en la red",
         "to visit chat rooms": "visitar salones de chat",
@@ -79,7 +79,7 @@ def mason_spanish_test():
     random.shuffle(items)
 
     for english_word, spanish_word in items:
-        answer = input(f"What is '{english_word}' in Spanish?  ").lower()
+        answer = input(f"What is '{english_word}' in Spanish?  ")
         if answer == spanish_word:
             print("CORRECT")
             right += 1
