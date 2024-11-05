@@ -26,3 +26,5 @@ new_x = int(x)
 new_y = int(y)
 
 print(new_x/new_y)
+
+print("test")
