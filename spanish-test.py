@@ -10,6 +10,7 @@ def carter_spanish_test():
      
     carter_translations = {
         "person": "la persona",
+        "hello": "hola",
         "cat": "el gato",
         "dog": "el perro",
         "he/she likes/loves": "le gusta/le enchanta",
