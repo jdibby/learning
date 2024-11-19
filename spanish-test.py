@@ -54,21 +54,18 @@ def carter_spanish_test():
 def mason_spanish_test():
      
     mason_translations = {
-        "to participate": "participar",
-        "to take lessons": "tomar lecciones",
-        "to return": "volver",
-        "to create a webpage": "crear una pagina Web", 
-        "to be online": "estar en linea",
-        "to do a search": "hacer una busqueda",
-        "to surf the web": "navegar en la red",
-        "to visit chat rooms": "visitar salones de chat",
-        "among, between": "entre",
-        "interest": "el interes",          
-        "opportunity": "la oportunidad",    
-        "how long...?": "?cuanto tiempo hace que...?",
-        "it has been...": "hace + time + que...",
-        "as + adj + as": "tan + adj + como",
-        "as much/many + noun + as": "tantos + noun + como"        
+        "cologne": "el agua de colonia",
+        "Brush": "el cepillo",
+        "belt": "el cinturon",
+        "deodorant": "el desodorante", 
+        "shower": "la ducha",
+        "gel": "el gel",
+        "jewelry": "las joyas",
+        "lips": "los labios",
+        "make-up": "el maquillaje",
+        "to take a shower": "ducharse",          
+        "to put on": "ponerse",    
+        "to paint, polish": "pintarse"       
     }
     
     right = 0
