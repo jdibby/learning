@@ -9,20 +9,19 @@ whoareyou = input("Are your Mason or Carter? (Mason/Carter)  ").lower()
 def carter_spanish_test():
      
     carter_translations = {
-        "person": "la persona",
-        "hello": "hola",
-        "cat": "el gato",
-        "dog": "el perro",
-        "he/she likes/loves": "le gusta/le enchanta",
-        "to open": "abrir",
-        "to celebrate": "celebrar",
-        "to decorate": "decorar",
-        "decorations": "las decoraciones",
-        "to videotape": "hacer un video",
-        "to prepare": "preparar",
-        "video": "el video",
-        "to break": "romper",
-        "to take photos": "sacar fotos"
+        "photo": "la foto",
+        "camera": "la camara",
+        "happy birthday": "feliz coupleanos",
+        "candy": "los dules",
+        "flowers": "la flor",
+        "ballon": "el globo",
+        "lights": "la luz",
+        "cut paper decoration": "el papel picado",
+        "cake": "el pastel",
+        "pinata": "la pinata",
+        "who/what": "que",
+        "only": "solo",
+    
     }
     
     right = 0
