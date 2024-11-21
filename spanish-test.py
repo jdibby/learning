@@ -64,7 +64,20 @@ def mason_spanish_test():
         "lips": "los labios",
         "make-up": "el maquillaje",
         "to take a shower": "ducharse",          
-        "to put on": "ponerse",    
+        "to put on": "ponerse",
+        "to go to bed": "acostarse",    
+        "to shave": "afeitarse",    
+        "to fix": "arreglarse",    
+        "to take a bath": "banarse",    
+        "to brush": "cepillarse",    
+        "to cut one's hair": "cortarste el pelo",    
+        "to wake up": "despertarse",    
+        "to get up": "levantarse",    
+        "to wash": "lavarse",    
+        "to borrow": "pedir prestado",    
+        "to get ready": "prepararse",    
+        "to dry": "secarse",    
+        "to get dressed": "vestirse",    
         "to paint, polish": "pintarse"       
     }
     
