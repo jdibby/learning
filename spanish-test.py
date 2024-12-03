@@ -77,7 +77,7 @@ def mason_spanish_test():
         "to borrow": "pedir prestado",    
         "to get ready": "prepararse",    
         "to dry": "secarse",    
-        "to get dressed": "vestirse",    
+        "to get dressed": "aaaaaa",    
         "to paint, polish": "pintarse"       
     }
     
