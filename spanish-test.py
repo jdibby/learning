@@ -61,7 +61,7 @@ def mason_spanish_test():
         "market": "el mercado",
         "exit": "la salida",
         "light": "claro",
-        "solid-colored": "de solo un color",
+        "solid-colored": "de solo un colors",
         "dark": "oscuro",
         "pastel": "pastel",          
         "bright": "vivo",
