@@ -1,7 +1,7 @@
 import random
 
 print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
-print(" THIS WEEKS SPANISH QUIZZ ")
+print(" THIS WEEKS SPANISH QUIZ ")
 print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 
 whoareyou = input("Are your Mason or Carter? (Mason/Carter)  ").lower()
