@@ -9,21 +9,21 @@ whoareyou = input("Are your Mason or Carter? (Mason/Carter)  ").lower()
 def carter_spanish_test():
      
     carter_translations = {
-        "man": "el hombre",
-        "woman": "la mujer",
-        "young man": "el joven",
-        "young woman": "la joven",
-        "tall": "alto",
-        "short": "bajo",
-        "good looking": "guapo",
-        "young": "joven",
-        "long": "largo",
-        "old": "viejo",
-        "hair": "el pelo",
-        "grey": "canoso",
-        "brown": "canaso", 
-        "black": "negro",
-        "blond": "rubio",
+        "red haired": "pelirrojo",
+        "to be warm": "tener calor",
+        "to be cold": "tener frio",
+        "to be sleepy": "tener sueno",
+        "delicious": "delicioso",
+        "to want": "desear",
+        "pedir": "to order",
+        "main dish": "el plato principal",
+        "dessert": "el postre",
+        "for dessert": "de postre",
+        "rich,tasty": "rico",
+        "sugar": "el azucar",
+        "spoon": "la cuchara", 
+        "knife": "el cuchillo",
+        "pepper": "la pimienta",
     
     }
     
