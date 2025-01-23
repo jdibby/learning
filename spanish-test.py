@@ -1,8 +1,8 @@
 import random
 
-print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 print(" THIS WEEKS SPANISH QUIZ ")
-print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 
 whoareyou = input("Are your Mason or Carter? (Mason/Carter)  ").lower()
 
@@ -54,23 +54,29 @@ def carter_spanish_test():
     print("")
     
 def mason_spanish_test():
-     
+
     mason_translations = {
-        "to participate": "participar",
-        "to take lessons": "tomar lecciones",
-        "to return": "volver",
-        "to create a webpage": "crear una pagina Web", 
-        "to be online": "estar en linea",
-        "to do a search": "hacer una busqueda",
-        "to surf the web": "navegar en la red",
-        "to visit chat rooms": "visitar salones de chat",
-        "among, between": "entre",
-        "interest": "el interes",          
-        "opportunity": "la oportunidad",    
-        "how long...?": "?cuanto tiempo hace que...?",
-        "it has been...": "hace + time + que...",
-        "as + adj + as": "tan + adj + como",
-        "as much/many + noun + as": "tantos + noun + como"        
+        "bank": "el banco",
+        "downtown": "en centro",
+        "doctor's/dentist office": "el consultorio",
+        "service station": "la estacion de servicio", 
+        "pharmacy": "la farmacia",
+        "supermarket": "el supermercado",
+        "mailbox": "el buzon",
+        "letter": "la carta",
+        "to mail a letter": "ehar una carta",
+        "post office": "el correo",          
+        "to send": "enviar",
+        "stamp": "el sello",    
+        "card": "la tarjeta",    
+        "sports equitment": "el equipo deportivo",    
+        "golf club": "el palo de golf",    
+        "skates": "los patines",    
+        "ball": "la pelota",    
+        "tennis racket": "la raqueta de tennis",    
+        "toothbrush": "el cepillo de dientes",    
+        "shampoo": "el champu",    
+        "soap": "el jabon"    
     }
     
     right = 0
