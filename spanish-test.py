@@ -52,7 +52,7 @@ def carter_spanish_test():
     print("")
     
 def mason_spanish_test():
-     
+
     mason_translations = {
         "bank": "el banco",
         "downtown": "en centro",
@@ -75,7 +75,6 @@ def mason_spanish_test():
         "toothbrush": "el cepillo de dientes",    
         "shampoo": "el champoo",    
         "soap": "el jabon"    
-    
     }
     
     right = 0
