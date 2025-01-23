@@ -73,7 +73,7 @@ def mason_spanish_test():
         "ball": "la pelota",    
         "tennis racket": "la raqueta de tennis",    
         "toothbrush": "el cepillo de dientes",    
-        "shampoo": "el champoo",    
+        "shampoo": "el champu",    
         "soap": "el jabon"    
     }
     
