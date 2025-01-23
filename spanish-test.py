@@ -54,31 +54,28 @@ def carter_spanish_test():
 def mason_spanish_test():
      
     mason_translations = {
-        "entrance": "la entrada",
-        "bargain": "la ganga",
-        "sign": "el letrero",
-        "sale": "la liquidaciones", 
-        "market": "el mercado",
-        "exit": "la salida",
-        "light": "claro",
-        "solid-colored": "de solo un color",
-        "dark": "oscuro",
-        "pastel": "pastel",          
-        "bright": "vivo",
-        "What is it made of": "?De que esta hecho?",    
-        "It is made of...": "Esta hecho de",    
-        "cotton": "algodon",    
-        "leather": "cuero",    
-        "wool": "lana",    
-        "silk": "seda",    
-        "synthetic": "tela sintetica",    
-        "high": "alto",    
-        "low": "bajo",    
-        "cash register": "la caja",    
-        "cashier": "el cajero",    
-        "check": "el cheque",     
-        "traveler's check": "el cheque de viajero",
-        "gift certificate": "el cupon de reglado"
+        "bank": "el banco",
+        "downtown": "en centro",
+        "doctor's/dentist office": "el consultorio",
+        "service station": "la estacion de servicio", 
+        "pharmacy": "la farmacia",
+        "supermarket": "el supermercado",
+        "mailbox": "el buzon",
+        "letter": "la carta",
+        "to mail a letter": "ehar una carta",
+        "post office": "el correo",          
+        "to send": "enviar",
+        "stamp": "el sello",    
+        "card": "la tarjeta",    
+        "sports equitment": "el equipo deportivo",    
+        "golf club": "el palo de golf",    
+        "skates": "los patines",    
+        "ball": "la pelota",    
+        "tennis racket": "la raqueta de tennis",    
+        "toothbrush": "el cepillo de dientes",    
+        "shampoo": "el champoo",    
+        "soap": "el jabon"    
+    
     }
     
     right = 0
