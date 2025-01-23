@@ -55,7 +55,7 @@ def mason_spanish_test():
 
     mason_translations = {
         "bank": "el banco",
-        "downtown": "en centro",
+        "downtown": "el centro",
         "doctor's/dentist office": "el consultorio",
         "service station": "la estacion de servicio", 
         "pharmacy": "la farmacia",
