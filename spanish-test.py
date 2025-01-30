@@ -9,22 +9,22 @@ whoareyou = input("Are your Mason or Carter? (Mason/Carter)  ").lower()
 def carter_spanish_test():
      
     carter_translations = {
-#        "plate": "el plato",
-#        "salt": "la sal",
-#        "napkin": "la servilleta",
-#        "cup": "la taza",
-#        "fork": "el tenedor",
-#        "glass": "el vaso",
-#        "waiter": "el camarero",
-#        "bill": "la cuenta",
-#        "menu": "el menu",
-#        "i need": "me falta",
-#        "i would like": "quisiera",
-#        "i will bring you": "le traigo", 
-#        "will you bring me": "me trae", 
-#        "i bring": "yo traigo", 
-#        "now": "ahora",   
-#        "anything else": "algo mas",   
+        "plate": "el plato",
+        "salt": "la sal",
+        "napkin": "la servilleta",
+        "cup": "la taza",
+        "fork": "el tenedor",
+        "glass": "el vaso",
+        "waiter": "el camarero",
+        "bill": "la cuenta",
+        "menu": "el menu",
+        "i need": "me falta",
+        "i would like": "quisiera",
+        "i will bring you": "le traigo", 
+        "will you bring me": "me trae", 
+        "i bring": "yo traigo", 
+        "now": "ahora",   
+        "anything else": "algo mas",   
         "your welcome": "de nada"
     }
 
