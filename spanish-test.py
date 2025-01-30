@@ -26,7 +26,7 @@ def carter_spanish_test():
         "now": "ahora",   
         "anything else": "algo mas",   
         "your welcome": "de nada",
-        ,
+        
      }
     right = 0
     wrong = 0
