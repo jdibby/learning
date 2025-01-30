@@ -25,9 +25,9 @@ def carter_spanish_test():
         "i bring": "yo traigo", 
         "now": "ahora",   
         "anything else": "algo mas",   
-        "your welcome": "de nada",
-        
-     }
+        "your welcome": "de nada"
+    }
+
     right = 0
     wrong = 0
 
