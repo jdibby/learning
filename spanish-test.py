@@ -9,40 +9,48 @@ whoareyou = input("Are your Mason or Carter? (Mason/Carter)  ").lower()
 def carter_spanish_test():
      
     carter_translations = {
-        "plate": "el plato",
-        "salt": "la sal",
-        "napkin": "la servilleta",
-        "cup": "la taza",
-        "fork": "el tenedor",
-        "glass": "el vaso",
-        "waiter": "el camarero",
-        "bill": "la cuenta",
-        "menu": "el menu",
-        "i need": "me falta",
-        "i would like": "quisiera",
-        "i will bring you": "le traigo", 
-        "will you bring me": "me trae", 
-        "i bring": "yo traigo", 
-        "now": "ahora",   
-        "anything else": "algo mas",   
+#        "plate": "el plato",
+#        "salt": "la sal",
+#        "napkin": "la servilleta",
+#        "cup": "la taza",
+#        "fork": "el tenedor",
+#        "glass": "el vaso",
+#        "waiter": "el camarero",
+#        "bill": "la cuenta",
+#        "menu": "el menu",
+#        "i need": "me falta",
+#        "i would like": "quisiera",
+#        "i will bring you": "le traigo", 
+#        "will you bring me": "me trae", 
+#        "i bring": "yo traigo", 
+#        "now": "ahora",   
+#        "anything else": "algo mas",   
         "your welcome": "de nada"
     }
 
     right = 0
     wrong = 0
 
-    # Shuffle questions for randomness
-    items = list(carter_translations.items())
-    random.shuffle(items)
+    # Keep track of how many times each word is answered correctly
+    correct_count = {word: 0 for word in carter_translations}
 
-    for english_word, spanish_word in items:
-        answer = input(f"What is '{english_word}' in Spanish?  ")
-        if answer == spanish_word:
-            print("CORRECT")
-            right += 1
-        else:
-            print(f"INCORRECT '{spanish_word}'.")
-            wrong += 1
+    # Shuffle the questions to randomize
+    items = list(carter_translations.items())
+
+# Loop until all words are answered correctly twice
+    while any(count < 2 for count in correct_count.values()):
+        random.shuffle(items)  # Shuffle questions for randomness
+        for english_word, spanish_word in items:
+            if correct_count[english_word] >= 2:
+                continue  # Skip the word if it's been answered correctly twice
+            answer = input(f"What is '{english_word}' in Spanish?  ")
+            if answer == spanish_word:
+                print("CORRECT")
+                right += 1
+                correct_count[english_word] += 1  # Increment correct count for this word
+            else:
+                print(f"INCORRECT '{spanish_word}'.")
+                wrong += 1
 
     total_questions = right + wrong
     if total_questions > 0:
@@ -86,18 +94,27 @@ def mason_spanish_test():
     right = 0
     wrong = 0
 
-    # Shuffle questions for randomness
-    items = list(mason_translations.items())
-    random.shuffle(items)
+    # Keep track of how many times each word is answered correctly
+    correct_count = {word: 0 for word in mason_translations}
 
-    for english_word, spanish_word in items:
-        answer = input(f"What is '{english_word}' in Spanish?  ")
-        if answer == spanish_word:
-            print("CORRECT")
-            right += 1
-        else:
-            print(f"INCORRECT '{spanish_word}'.")
-            wrong += 1
+    # Shuffle the questions to randomize
+    items = list(mason_translations.items())
+
+    # Loop until all words are answered correctly twice
+    while any(count < 2 for count in correct_count.values()):
+        random.shuffle(items)  # Shuffle questions for randomness
+        for english_word, spanish_word in items:
+            if correct_count[english_word] >= 2:
+                continue  # Skip the word if it's been answered correctly twice
+
+            answer = input(f"What is '{english_word}' in Spanish?  ")
+            if answer == spanish_word:
+                print("CORRECT")
+                right += 1
+                correct_count[english_word] += 1  # Increment correct count for this word
+            else:
+                print(f"INCORRECT '{spanish_word}'.")
+                wrong += 1
 
     total_questions = right + wrong
     if total_questions > 0:
