@@ -47,7 +47,7 @@ def carter_spanish_test():
             if answer == spanish_word:
                 print("CORRECT")
                 right += 1
-                correct_count[english_word] += 1  # Increment correct count for this word
+                correct_count[english_word] += 1
             else:
                 print(f"INCORRECT '{spanish_word}'.")
                 wrong += 1
