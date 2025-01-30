@@ -1,5 +1,10 @@
 import random
 
+# ANSI escape codes for colors
+GREEN = '\033[32m'           # Standard green
+BRIGHT_RED = '\033[1;31m'    # Brighter red
+RESET = '\033[0m'            # Reset to default
+
 print(">>>>>>>>>>>>>>>>>>>>>>>>>")
 print(" THIS WEEKS SPANISH QUIZ ")
 print(">>>>>>>>>>>>>>>>>>>>>>>>>")
@@ -7,7 +12,6 @@ print(">>>>>>>>>>>>>>>>>>>>>>>>>")
 whoareyou = input("Are your Mason or Carter? (Mason/Carter)  ").lower()
 
 def carter_spanish_test():
-     
     carter_translations = {
         "plate": "el plato",
         "salt": "la sal",
@@ -31,41 +35,35 @@ def carter_spanish_test():
     right = 0
     wrong = 0
 
-    # Keep track of how many times each word is answered correctly
     correct_count = {word: 0 for word in carter_translations}
 
-    # Shuffle the questions to randomize
     items = list(carter_translations.items())
 
-# Loop until all words are answered correctly twice
     while any(count < 2 for count in correct_count.values()):
-        random.shuffle(items)  # Shuffle questions for randomness
+        random.shuffle(items)
         for english_word, spanish_word in items:
             if correct_count[english_word] >= 2:
-                continue  # Skip the word if it's been answered correctly twice
+                continue
+
             answer = input(f"What is '{english_word}' in Spanish?  ")
             if answer == spanish_word:
-                print("CORRECT")
+                print(f"{GREEN}CORRECT{RESET}")
                 right += 1
                 correct_count[english_word] += 1
                 if correct_count[english_word] >= 2:
-                    print("THIS WORD HAS BEEN REMOVED FROM YOUR LIST")
+                    print(f"{GREEN}THIS WORD HAS BEEN REMOVED FROM YOUR LIST{RESET}")
             else:
-                print(f"INCORRECT '{spanish_word}'.")
+                print(f"{BRIGHT_RED}INCORRECT: '{spanish_word}'{RESET}")
                 wrong += 1
 
     total_questions = right + wrong
-    if total_questions > 0:
-        score_percentage = (right / total_questions) * 100
-    else:
-        score_percentage = 0
+    score_percentage = (right / total_questions) * 100 if total_questions > 0 else 0
 
     print(f"\nYour total score: {right} correct, {wrong} incorrect.")
     print(f"Your percentage score: {score_percentage:.2f}%")
     print("")
-    
-def mason_spanish_test():
 
+def mason_spanish_test():
     mason_translations = {
         "toothpaste": "la pasta dental",
         "I forgot": "se me olvido",
@@ -84,7 +82,7 @@ def mason_spanish_test():
         "good gracious": "caramba",    
         "almost": "casi",    
         "of course": "como no",    
-        "right away": "en sequida",    
+        "right away": "en seguida",    
         "until": "hasta",    
         "for": "por",    
         "see you soon": "hasta pronto", 
@@ -92,39 +90,33 @@ def mason_spanish_test():
         "still": "todavia",
         "various": "varios"  
     }
-    
+
     right = 0
     wrong = 0
 
-    # Keep track of how many times each word is answered correctly
     correct_count = {word: 0 for word in mason_translations}
 
-    # Shuffle the questions to randomize
     items = list(mason_translations.items())
 
-    # Loop until all words are answered correctly twice
     while any(count < 2 for count in correct_count.values()):
-        random.shuffle(items)  # Shuffle questions for randomness
+        random.shuffle(items)
         for english_word, spanish_word in items:
             if correct_count[english_word] >= 2:
-                continue  # Skip the word if it's been answered correctly twice
+                continue
 
             answer = input(f"What is '{english_word}' in Spanish?  ")
             if answer == spanish_word:
-                print("CORRECT")
+                print(f"{GREEN}CORRECT{RESET}")
                 right += 1
-                correct_count[english_word] += 1  # Increment correct count for this word
+                correct_count[english_word] += 1
                 if correct_count[english_word] >= 2:
-                    print("THIS WORD HAS BEEN REMOVED FROM YOUR LIST")
+                    print(f"{GREEN}THIS WORD HAS BEEN REMOVED FROM YOUR LIST{RESET}")
             else:
-                print(f"INCORRECT '{spanish_word}'.")
+                print(f"{BRIGHT_RED}INCORRECT: '{spanish_word}'{RESET}")
                 wrong += 1
 
     total_questions = right + wrong
-    if total_questions > 0:
-        score_percentage = (right / total_questions) * 100
-    else:
-        score_percentage = 0
+    score_percentage = (right / total_questions) * 100 if total_questions > 0 else 0
 
     print(f"\nYour total score: {right} correct, {wrong} incorrect.")
     print(f"Your percentage score: {score_percentage:.2f}%")
