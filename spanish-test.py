@@ -79,7 +79,7 @@ def mason_spanish_test():
         "see you soon": "hasta pronto", 
         "to stay": "quedarse",
         "still": "por",
-        "various": "variossss"  
+        "various": "variosssssss"  
     }
     
     right = 0
