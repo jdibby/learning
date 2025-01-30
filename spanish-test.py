@@ -1,32 +1,33 @@
 import random
 
-print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
-print(" THIS WEEKS SPANISH QUIZ ")
-print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+print(">>>>>>>>>>>>>>>>>>>>>>>>>")
+print(" THIS WEEKS SPANISH QUIS ")
+print(">>>>>>>>>>>>>>>>>>>>>>>>>")
 
 whoareyou = input("Are your Mason or Carter? (Mason/Carter)  ").lower()
 
 def carter_spanish_test():
      
     carter_translations = {
-        "red haired": "pelirrojo",
-        "to be warm": "tener calor",
-        "to be cold": "tener frio",
-        "to be sleepy": "tener sueno",
-        "delicious": "delicioso",
-        "to want": "desear",
-        "pedir": "to order",
-        "main dish": "el plato principal",
-        "dessert": "el postre",
-        "for dessert": "de postre",
-        "rich,tasty": "rico",
-        "sugar": "el azucar",
-        "spoon": "la cuchara", 
-        "knife": "el cuchillo",
-        "pepper": "la pimienta",
-    
-    }
-    
+        "plate": "el plato",
+        "salt": "la sal",
+        "napkin": "la servilleta",
+        "cup": "la taza",
+        "fork": "el tenedor",
+        "glass": "el vaso",
+        "waiter": "el camarero",
+        "bill": "la cuenta",
+        "menu": "el menu",
+        "i need": "me falta",
+        "i would like": "quisiera",
+        "i will bring you": "le traigo", 
+        "will you bring me": "me trae", 
+        "i bring": "yo traigo", 
+        "now": "ahora",   
+        "anything else": "algo mas",   
+        "your welcome": "de nada",
+        ,
+     }
     right = 0
     wrong = 0
 
