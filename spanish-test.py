@@ -78,7 +78,7 @@ def mason_spanish_test():
         "for": "por",    
         "see you soon": "hasta pronto", 
         "to stay": "quedarse",
-        "still": "por",
+        "still": "todavia",
         "various": "varios"  
     }
     
