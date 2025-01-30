@@ -112,7 +112,7 @@ def mason_spanish_test():
                 print("CORRECT")
                 right += 1
                 correct_count[english_word] += 1  # Increment correct count for this word
-                if correct_count[english_word] >= 2
+                if correct_count[english_word] >= 2:
                     print("THIS WORD HAS BEEN REMOVED FROM YOUR LIST")
             else:
                 print(f"INCORRECT '{spanish_word}'.")
