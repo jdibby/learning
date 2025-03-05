@@ -13,23 +13,18 @@ whoareyou = input("Are your Mason or Carter? (Mason/Carter)  ").lower()
 
 def carter_spanish_test():
     carter_translations = {
-        "plate": "el plato",
-        "salt": "la sal",
-        "napkin": "la servilleta",
-        "cup": "la taza",
-        "fork": "el tenedor",
-        "glass": "el vaso",
-        "waiter": "el camarero",
-        "bill": "la cuenta",
-        "menu": "el menu",
-        "i need": "me falta",
-        "i would like": "quisiera",
-        "i will bring you": "le traigo", 
-        "will you bring me": "me trae", 
-        "i bring": "yo traigo", 
-        "now": "ahora",   
-        "anything else": "algo mas",   
-        "your welcome": "de nada"
+        "to the right of": " a derecha",
+        "to the left of": "a la izquirda",
+        "better than": "mejor es que",
+        "the best": "la mejor",
+        "less": "menos",
+        "worse than": "peores que",
+        "the worst": "el peor",
+        "thing": "la cosa",
+        "in my opionon ": "para mi",
+        "in your opinion": "para ti",
+        "possesion": "la possesion"
+     
     }
 
     right = 0
@@ -73,8 +68,8 @@ def mason_spanish_test():
         "To take away": "guitar",
         "To be careful": "tener cuidado",
         "already": "ya",
-        "approximately": "eproximadamente
-        "How do you go to...?": "como se va",          
+        "approximately": "eproximadamente"
+        "How do you go to...?" "como se va",          
         "complicated": "complicado",
         "to cross": "cruzar",    
         "straight": "derecho",    
