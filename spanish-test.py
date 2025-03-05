@@ -65,31 +65,34 @@ def carter_spanish_test():
 
 def mason_spanish_test():
     mason_translations = {
-        "toothpaste": "la pasta dental",
-        "I forgot": "se me olvido",
-        "to close": "cerrar",
-        "to cash a check": "cobrar un cheque", 
-        "to take care of": "cuidar a",
-        "dentist": "el dentista",
-        "to return": "devolver",
-        "gasoline": "la gasolina",
-        "to go on foot": "ir a pie",
-        "to fill": "llenar",          
-        "doctor": "el medico",
-        "to take out": "sacar",    
-        "opens": "se abre",    
-        "closes": "se cierra",    
-        "good gracious": "caramba",    
-        "almost": "casi",    
-        "of course": "como no",    
-        "right away": "en seguida",    
-        "until": "hasta",    
-        "for": "por",    
-        "see you soon": "hasta pronto", 
-        "to stay": "quedarse",
-        "still": "todavia",
-        "various": "varios"  
+
+        "to be sure": "estar seguro",
+        "narrow": "estrecho",
+        "You are making me nervous": "Me estas poniendo nervioso",
+        "dangerous": "peligroso", 
+        "To take away": "guitar",
+        "To be careful": "tener cuidado",
+        "already": "ya",
+        "approximately": "eproximadamente
+        "How do you go to...?": "como se va",          
+        "complicated": "complicado",
+        "to cross": "cruzar",    
+        "straight": "derecho",    
+        "from, since": "desde",    
+        "to turn": "doblar",    
+        "in the middle of": "en medio de",    
+        "as far as, up": "hasta",    
+        "to drive": "manejar",    
+        "subway": "el metro",    
+        "to stop": "parar",    
+        "for": "por", 
+        "to be located": "quedar",
+        "to follow": "seguir",
+        "to be in a hurry": "tener prisa"
     }
+
+    
+
 
     right = 0
     wrong = 0
