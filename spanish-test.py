@@ -1,9 +1,9 @@
 import random
 
 # ANSI escape codes for colors
-GREEN = '\033[32m'           # Standard green
-BRIGHT_RED = '\033[1;31m'    # Brighter red
-RESET = '\033[0m'            # Reset to default
+GREEN = '\033[32m'          
+BRIGHT_RED = '\033[1;31m'    
+RESET = '\033[0m'            
 
 print(">>>>>>>>>>>>>>>>>>>>>>>>>")
 print(" THIS WEEKS SPANISH QUIZ ")
