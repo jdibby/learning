@@ -13,17 +13,18 @@ whoareyou = input("Are your Mason or Carter? (Mason/Carter)  ").lower()
 
 def carter_spanish_test():
     carter_translations = {
-        "to the right of": " a derchera",
-        "to the left of": "a la izquirda",
-        "better than": "mejor es que",
+        "to the left of":  "a la izquirda",
+        "to the right are": "a la derchera",
+        "better than": "mejor que",
         "the best": "la mejor",
-        "less": "menos",
-        "worse than": "peores que",
-        "the worst": "el peor",
+        "less than": "menos que",
+        "worse than": "peor que",
+        "the worst": "la peor",
         "thing": "la cosa",
-        "in my opionon ": "para mi",
+        "in my opinion": "para mi",
         "in your opinion": "para ti",
-        "possesion": "la possesion"
+        "posesssion": "posession"
+       
      
     }
 
